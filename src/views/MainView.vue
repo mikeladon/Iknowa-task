@@ -1,5 +1,5 @@
 <template>
-  <RouterView />
+  <RouterLink :to="{ name: 'posts' }"> Show all posts </RouterLink>
 </template>
 
 <script lang="ts">
